@@ -14,7 +14,7 @@ namespace Tyuiu.KoryakinaAE.Sprint2.Task0.V26.Lib
             res[3] = x > y;
             res[4] = x - 71 <= y;
             res[5] = x + 3 >= y;
-            return res;
+            return res; 
         }
     }
 }
