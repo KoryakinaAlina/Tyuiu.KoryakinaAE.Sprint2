@@ -10,8 +10,8 @@ namespace Tyuiu.Koryakina.AE.Sprint2.Task4.V18.Test
         {
             DataService ds = new DataService();
             var res = ds.Calculate(1, 0);
-            Assert.AreEqual(0, res);
-
-        }
+            Assert.AreEqual(0, res); 
+             
+        } 
     }
 }
