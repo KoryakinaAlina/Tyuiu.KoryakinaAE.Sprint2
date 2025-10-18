@@ -31,6 +31,6 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine(res);
-        Console.ReadKey(); Console.WriteLine("Hello, World!");
+        Console.ReadKey(); 
     }
 }
