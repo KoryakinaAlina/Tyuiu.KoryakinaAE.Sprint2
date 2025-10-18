@@ -6,14 +6,15 @@ namespace Tyuiu.KoryakinaAE.Sprint2.Task7.V5.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            if (x < -1 || x > 1)
-                return false;
-
-            double a = x * x;
-
-            double b = Math.Exp(-Math.Abs(x));
-
-            return y >= a && y <= b;
+            if (x >= 0 && x <= 1)
+            {
+                return y >= x * x && y <= Math.Exp(-x);
+            }
+            else if (x >= -1  && x < 0)
+            {
+                return y >= x * x && y <= Math.Exp(x);
+            }
+            return false;
         }
     }
 }
